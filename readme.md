@@ -1,4 +1,4 @@
-=== Scientific Notation Converter by Calculator.iO ===
+# Scientific Notation Converter by Calculator.iO
 Contributors: calculatorio
 Tags: 
 Requires at least: 5.0
@@ -9,11 +9,11 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Scientific notation calculator converts numbers to scientific notation, standard form, engineering notation, scientific e-notation, and word form and finds the order of magnitude.
 
-== Description ==
+## Description
 
 Scientific notation calculator converts numbers to scientific notation, standard form, engineering notation, scientific e-notation, and word form and finds the order of magnitude.
 
-__Shortcode__
+### Shortcode
 
 Use the Scientific Notation Converter shortcode:
 
@@ -27,21 +27,21 @@ Libraries in use:
 5. https://air-datepicker.com/
 6. https://www.chartjs.org/
 
-== Installation ==
+## Installation
 
 1. Upload the /ci_scientific_notation_converter/ folder to the /wp-content/plugins/ directory.
 2. Activate the [Scientific Notation Converter](https://www.calculator.io/scientific-notation-converter/ "Scientific Notation Converter Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+## Usage
 * Add the shortcode `[ci_scientific_notation_converter]` to your page or post and configure default mortgage parameters.
 * If you are using widgets, just add the Scientific Notation Converter to the sidebar through the `Appearance -> Widgets -> Scientific Notation Converter` menu in WordPress.
 * Add the following code: `<?php display_ci_scientific_notation_converter(); ?>` to your template where you would like the Scientific Notation Converter to appear.
 
-== Screenshots ==
+## Screenshots
 1. The Scientific Notation Converter Input Form.
 2. The Scientific Notation Converter Calculation Results.
 
-== Changelog ==
+## Changelog
 
-= 1.0.0 =
+### 1.0.0
 * Initial release

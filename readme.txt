@@ -13,6 +13,8 @@ Scientific notation calculator converts numbers to scientific notation, standard
 
 Scientific notation calculator converts numbers to scientific notation, standard form, engineering notation, scientific e-notation, and word form and finds the order of magnitude.
 
+[Scientific Notation Converter Homepage](https://www.calculator.io/scientific-notation-converter/ "Scientific Notation Converter Homepage")
+
 __Shortcode__
 
 Use the Scientific Notation Converter shortcode:

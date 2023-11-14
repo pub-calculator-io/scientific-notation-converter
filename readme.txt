@@ -9,41 +9,29 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Scientific notation calculator converts numbers to scientific notation, standard form, engineering notation, scientific e-notation, and word form and finds the order of magnitude.
 
-== Description ==
-
-Scientific notation calculator converts numbers to scientific notation, standard form, engineering notation, scientific e-notation, and word form and finds the order of magnitude.
-
 [https://www.calculator.io/scientific-notation-converter/](https://www.calculator.io/scientific-notation-converter/)
 
-__Scientific Notation Converter Shortcode__
+== Usage ==
+
+Add the Scientific Notation Converter shortcode to your page, post or sidebar:
 
 `[ci_scientific_notation_converter]`
 
-== Installation ==
+Add the following code to your template where you would like the Scientific Notation Converter to appear:
 
-1. Upload the /ci_scientific_notation_converter/ folder to the /wp-content/plugins/ directory.
-2. Activate the [Scientific Notation Converter](https://www.calculator.io/scientific-notation-converter/ "Scientific Notation Converter Homepage") plugin through the "Plugins" menu in WordPress.
-
-== Scientific Notation Converter Usage ==
-
-* Add the shortcode `[ci_scientific_notation_converter]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_scientific_notation_converter(); ?>` to your template where you would like the Scientific Notation Converter to appear.
+`<?php display_ci_scientific_notation_converter(); ?>`
 
 == Screenshots ==
 
 1. The Scientific Notation Converter Input Form.
 2. The Scientific Notation Converter Calculation Results.
 
-== Libraries used in Scientific Notation Converter ==
+== Installation ==
 
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
+1. Upload the Scientific Notation Converter /ci_scientific_notation_converter/ folder to the /wp-content/plugins/ directory.
+2. Activate the Scientific Notation Converter plugin through the "Plugins" menu in WordPress.
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initial release of Scientific Notation Converter

@@ -1,6 +1,6 @@
 === Scientific Notation Converter by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: scientific notation converter, converting to scientific notation, engineering notation calculations, scientific e-notation conversion, standard form translation, real number form conversion, word form representation, order of magnitude determination, handling large and small numbers, scientific notation input formats
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0

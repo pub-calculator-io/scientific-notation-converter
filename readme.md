@@ -1,4 +1,4 @@
-# Scientific Notation Converter WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Scientific Notation Converter Widget for WordPress
 
 Scientific notation calculator converts numbers to scientific notation, standard form, engineering notation, scientific e-notation, and word form and finds the order of magnitude.
 

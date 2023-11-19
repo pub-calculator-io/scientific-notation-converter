@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Scientific Notation Converter by www.calculator.io
+Plugin Name: CI Scientific notation converter
 Plugin URI: https://www.calculator.io/scientific-notation-converter/
 Description: Scientific notation calculator converts numbers to scientific notation, standard form, engineering notation, scientific e-notation, and word form and finds the order of magnitude.
 Version: 1.0.0

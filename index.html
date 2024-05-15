@@ -28,7 +28,7 @@
             <div class="calculator-setting" id="calculator_form">
                 <div class="calculator-content col">
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col scientific-calculator,unit-converter,binary-calculator,scientific-notation-calculator,hex-calculator,standard-form-calculator  ">
                 			<p class="input__title">Number or Scientific Notation</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="number" value="3.456 x 10^11"  />
@@ -37,20 +37,22 @@
                 		
                 		</label>	</div>
                 </div>
+                
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  " >
                 
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
+                	<script type="text/javascript" src="./assets/js/lib/math.min.js" async></script>
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
                 
-                <script type="text/javascript" src="./assets/js/numberToWords.min.js"></script>
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -65,8 +67,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<div class="result-table__wrapper"> 
 		<table class="result-table">
@@ -75,13 +76,13 @@
 					<th class="dark indigo" colspan="2">Result</th>
 				</tr>
 			</thead>
-			<tbody>
+			<tbody class="animate">
 				<tr>
 					<th>Scientific Notation</th>
 					<td id="scientific_notation">3.456 × 10<sup>11</sup></td>
 				</tr>
 				<tr>
-					<th>Scientific e Notation</th>
+					<th>E-notation</th>
 					<td id="e_notation">3.456e+11</td>
 				</tr>
 				<tr>
@@ -98,7 +99,7 @@
 				</tr>
 				<tr>
 					<th>Word Form</th>
-					<td id="word_form">three hundred forty-five billion, six hundred million</td>
+					<td id="word_form">three hundred forty five billions six hundred millions</td>
 				</tr>
 			</tbody>
 		</table>

@@ -10,7 +10,7 @@ function calculate(){
   const scientificNotation = eNotation.replace(/e\+?(-?)(\d+)/,' × 10<sup>$1$2</sup>');
   const engineeringNotation = math.format(number, {notation: 'engineering'})
     .replace(/e\+?(-?)(\d+)/,' × 10<sup>$1$2</sup>');
-  const wordForm = numberToWords.toWords(number);
+  const wordForm = numberToWords(number);
 
   // 3. output
   _('scientific_notation').innerHTML = scientificNotation;

@@ -3,7 +3,6 @@
 Scientific notation calculator converts numbers to scientific notation, standard form, engineering notation, scientific e-notation, and word form and finds the order of magnitude.
 
 ![Scientific Notation Converter Input Form](/assets/images/screenshot-1.png "Scientific Notation Converter Input Form")
-![Scientific Notation Converter Calculation Results](/assets/images/screenshot-2.png "Scientific Notation Converter Calculation Results")
 
 ## Installation
 

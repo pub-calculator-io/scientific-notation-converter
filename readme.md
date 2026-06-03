@@ -1,6 +1,6 @@
 # Scientific Notation Converter Widget for WordPress
 
-Scientific notation calculator converts numbers to scientific notation, standard form, engineering notation, scientific e-notation, and word form and finds the order of magnitude.
+Instantly convert numbers to scientific notation, standard form, engineering, and e-notation. Find order of magnitude and word form with our free calculator!
 
 ![Scientific Notation Converter Input Form](/assets/images/screenshot-1.png "Scientific Notation Converter Input Form")
 
@@ -11,8 +11,8 @@ Scientific notation calculator converts numbers to scientific notation, standard
 3. Activate the [Scientific Notation Converter](https://www.calculator.io/scientific-notation-converter/ "Scientific Notation Converter Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_scientific_notation_converter]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_scientific_notation_converter(); ?>` to your template where you would like the Scientific Notation Converter to appear.
+* Add the shortcode `[calcio_scientific_notation_converter]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_scientific_notation_converter(); ?>` to your template where you would like the Scientific Notation Converter to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
